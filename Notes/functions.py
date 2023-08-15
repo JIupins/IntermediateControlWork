@@ -1,3 +1,4 @@
+import datetime
 import traceback
 
 
@@ -6,7 +7,11 @@ def create_note(filename):
     dictionary_notes = {}
     key = assign_key(filename)
     note_text = input(u"Добавьте заметку: ")
-    dictionary_notes[key] = note_text
+
+    now = datetime.datetime.now()
+    date_time = now.strftime("%d.%m.%Y %H:%M")
+
+    dictionary_notes[key] = note_text + "| " + date_time
     with open(filename, "a") as file:
         for key, value in dictionary_notes.items():
             file.write(f"{key}: {value}\n")
@@ -25,8 +30,8 @@ def remove_note(filename):
         print(u"Ни одной заметки пока не создано (файл пустой).\n")
     else:
         print(u"Существуют следующие заметки:")
-        for (k,v) in dictionary_notes1.items():
-            print(k,v)
+        for (k, v) in dictionary_notes1.items():
+            print(k, v)
 
         while True:
             try:
@@ -97,6 +102,37 @@ def read_notes(filename):
         print(u"Созданы следующие заметки:")
         for (k, v) in dictionary_notes1.items():
             print(k, v)
+
+
+def find_note(filename):
+    print(u"\n----Найти заметку (по дате)----")
+    dictionary_notes1 = {}
+    dictionary_notes2 = {}
+    dictionary_notes_full = {}
+
+    with open(filename, "r") as file:
+        for line in file:
+            key, value = line.strip().split(": ")
+            dictionary_notes_full[int(key)] = value
+
+            key, value, date = line.split(": ")[0].strip(), line.split("| ")[0].split(": ")[1].strip(), line.split("| ")[1].strip()
+            dictionary_notes1[int(key)] = value
+            dictionary_notes2[int(key)] = date
+
+    if len(dictionary_notes1) == 0:
+        print(u"Ни одной заметки пока не создано (файл пустой).\n")
+    else:
+        find_date = input(u"Введите дату заметки, в формате 15.08.2023 18:51: ")
+
+        flag = True
+
+        for k, d in dictionary_notes2.items():
+            if find_date in d:
+                print(f"{k}: {dictionary_notes1[k]}| {dictionary_notes2[k]}")
+                flag = False
+
+        if flag:
+            print(u"Ни одной заметки c подобной датой не найдено.\n")
 
 
 def close_program(filename):

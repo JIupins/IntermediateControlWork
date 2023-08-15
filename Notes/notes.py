@@ -22,9 +22,10 @@ while flag:
               "2 - Удалить заметку\n\t"
               "3 - Редактировать заметку\n\t"
               "4 - Ознакамиться с заметками\n\t"
-              "5 - Выход из программы\n")
-        choice = int(input(u"Введите число от 1 до 5: "))
-        if 0 < choice < 6:
+              "5 - Найти заметку (по дате)\n\t"
+              "6 - Выход из программы\n")
+        choice = int(input(u"Введите число от 1 до 6: "))
+        if 0 < choice < 7:
             if choice == 1:
                 create_note(filename)
             elif choice == 2:
@@ -34,6 +35,8 @@ while flag:
             elif choice == 4:
                 read_notes(filename)
             elif choice == 5:
+                find_note(filename)
+            elif choice == 6:
                 flag = close_program(filename)
         else:
             print(u"Значение введено неверно! Повторите вводю\n")
