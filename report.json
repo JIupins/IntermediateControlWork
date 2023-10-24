@@ -1,0 +1,62 @@
+"24-10-2023 19:33:11"
+"Всего игрушек:"
+{"id":0,"name":"Masha","dropChance":0,"numLotteryToys":0,"totalNumToys":8,"numWarehouseToys":8}
+{"id":1,"name":"Nina","dropChance":0,"numLotteryToys":0,"totalNumToys":6,"numWarehouseToys":6}
+{"id":2,"name":"Tiger","dropChance":35,"numLotteryToys":8,"totalNumToys":12,"numWarehouseToys":4}
+{"id":3,"name":"Cow","dropChance":25,"numLotteryToys":16,"totalNumToys":24,"numWarehouseToys":8}
+{"id":4,"name":"Dack","dropChance":0,"numLotteryToys":0,"totalNumToys":4,"numWarehouseToys":4}
+"Всего разыгрываемых игрушек:"
+{"id":2,"name":"Tiger","dropChance":35,"numLotteryToys":8,"totalNumToys":12,"numWarehouseToys":4}
+{"id":3,"name":"Cow","dropChance":25,"numLotteryToys":16,"totalNumToys":24,"numWarehouseToys":8}
+"К сожалению вы ничего не выиграли!"
+"24-10-2023 19:35:03"
+"Всего игрушек:"
+{"id":0,"name":"Masha","dropChance":0,"numLotteryToys":0,"totalNumToys":8,"numWarehouseToys":8}
+{"id":1,"name":"Nina","dropChance":0,"numLotteryToys":0,"totalNumToys":6,"numWarehouseToys":6}
+{"id":2,"name":"Tiger","dropChance":35,"numLotteryToys":8,"totalNumToys":12,"numWarehouseToys":4}
+{"id":3,"name":"Cow","dropChance":25,"numLotteryToys":16,"totalNumToys":24,"numWarehouseToys":8}
+{"id":4,"name":"Dack","dropChance":0,"numLotteryToys":0,"totalNumToys":4,"numWarehouseToys":4}
+"Всего разыгрываемых игрушек:"
+{"id":2,"name":"Tiger","dropChance":35,"numLotteryToys":8,"totalNumToys":12,"numWarehouseToys":4}
+{"id":3,"name":"Cow","dropChance":25,"numLotteryToys":16,"totalNumToys":24,"numWarehouseToys":8}
+"К сожалению вы ничего не выиграли!"
+"24-10-2023 19:35:13"
+"Всего игрушек:"
+{"id":0,"name":"Masha","dropChance":0,"numLotteryToys":0,"totalNumToys":8,"numWarehouseToys":8}
+{"id":1,"name":"Nina","dropChance":0,"numLotteryToys":0,"totalNumToys":6,"numWarehouseToys":6}
+{"id":2,"name":"Tiger","dropChance":35,"numLotteryToys":8,"totalNumToys":12,"numWarehouseToys":4}
+{"id":3,"name":"Cow","dropChance":25,"numLotteryToys":16,"totalNumToys":24,"numWarehouseToys":8}
+{"id":4,"name":"Dack","dropChance":0,"numLotteryToys":0,"totalNumToys":4,"numWarehouseToys":4}
+"Всего разыгрываемых игрушек:"
+{"id":2,"name":"Tiger","dropChance":35,"numLotteryToys":8,"totalNumToys":12,"numWarehouseToys":4}
+{"id":3,"name":"Cow","dropChance":25,"numLotteryToys":16,"totalNumToys":24,"numWarehouseToys":8}
+"Поздравляем! Вы выиграли игрушку: Tiger!"
+"\n24-10-2023 19:38:27"
+"Всего игрушек:"
+{"id":0,"name":"qw","dropChance":50,"numLotteryToys":6,"totalNumToys":12,"numWarehouseToys":6}
+{"id":1,"name":"df","dropChance":0,"numLotteryToys":0,"totalNumToys":34,"numWarehouseToys":34}
+{"id":2,"name":"bnh","dropChance":40,"numLotteryToys":32,"totalNumToys":56,"numWarehouseToys":24}
+"Всего разыгрываемых игрушек:"
+{"id":0,"name":"qw","dropChance":50,"numLotteryToys":6,"totalNumToys":12,"numWarehouseToys":6}
+{"id":2,"name":"bnh","dropChance":40,"numLotteryToys":32,"totalNumToys":56,"numWarehouseToys":24}
+"Поздравляем! Вы выиграли игрушку: qw!"
+"\n24-10-2023 19:38:40"
+"Всего игрушек:"
+{"id":0,"name":"qw","dropChance":50,"numLotteryToys":6,"totalNumToys":11,"numWarehouseToys":5}
+{"id":1,"name":"df","dropChance":0,"numLotteryToys":0,"totalNumToys":34,"numWarehouseToys":34}
+{"id":2,"name":"bnh","dropChance":40,"numLotteryToys":32,"totalNumToys":56,"numWarehouseToys":24}
+"Всего разыгрываемых игрушек:"
+{"id":0,"name":"qw","dropChance":50,"numLotteryToys":6,"totalNumToys":11,"numWarehouseToys":5}
+{"id":2,"name":"bnh","dropChance":40,"numLotteryToys":32,"totalNumToys":56,"numWarehouseToys":24}
+"Поздравляем! Вы выиграли игрушку: bnh!"
+"\n24-10-2023 19:43:11"
+"Всего игрушек:"
+{"id":0,"name":"Nina","dropChance":25,"numLotteryToys":6,"numWarehouseToys":16,"totalNumToys":22}
+{"id":1,"name":"Kolya","dropChance":0,"numLotteryToys":0,"numWarehouseToys":14,"totalNumToys":14}
+{"id":2,"name":"Sasha","dropChance":40,"numLotteryToys":18,"numWarehouseToys":18,"totalNumToys":36}
+{"id":3,"name":"Tiger","dropChance":0,"numLotteryToys":0,"numWarehouseToys":8,"totalNumToys":8}
+{"id":4,"name":"Doll","dropChance":25,"numLotteryToys":9,"numWarehouseToys":9,"totalNumToys":18}
+"Всего разыгрываемых игрушек:"
+{"id":2,"name":"Sasha","dropChance":40,"numLotteryToys":18,"numWarehouseToys":18,"totalNumToys":36}
+{"id":0,"name":"Nina","dropChance":25,"numLotteryToys":6,"numWarehouseToys":16,"totalNumToys":22}
+"Поздравляем! Вы выиграли игрушку: Sasha!\n"

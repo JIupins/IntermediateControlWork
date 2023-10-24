@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\babos\\Desktop\\jackson-core-2.16.0-rc1.jar",
+            "c:\\Users\\babos\\Desktop\\jackson-databind-2.16.0-rc1.jar",
+            "c:\\Users\\babos\\Desktop\\jackson-annotations-2.16.0-rc1.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\babos\\Desktop\\jackson-databind-2.13.2.2.jar"
+        ]
+    },
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.project.explorer.showNonJavaResources": true
+}
